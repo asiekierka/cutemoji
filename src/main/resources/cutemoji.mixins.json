@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "pl.asie.cutemoji.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ChatScreenMixin",
+    "SpriteAtlasTextureMixin",
+    "TextRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
